@@ -1,0 +1,14 @@
+{
+  "trapManager": {
+      "ipAddress": "127.0.0.1",
+      "port": 10162
+  },
+  "elements": [
+    {
+  	  "ipAddress": "127.0.0.1",
+      "port": 161,
+      "readCommunity": "public",
+      "writeCommunity": "private"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+<configuration scan="true" scanPeriod="30 seconds">
+  <appender name="stdout" class="ch.qos.logback.core.ConsoleAppender">
+    <Target>System.out</Target>
+    <encoder>
+      <pattern>%d{MM-dd HH:mm:ss} %-5p [%t] %c{1}:%L - %m%n</pattern>
+    </encoder>
+  </appender>
+  <root level="INFO">
+    <appender-ref ref="stdout"/>
+  </root>
+</configuration>
