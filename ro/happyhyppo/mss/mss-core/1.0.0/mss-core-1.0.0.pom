@@ -8,9 +8,9 @@
 		<version>1.0.0</version>
 		<relativePath>../</relativePath>
 	</parent>
-	<groupId>ro.happyhyppo.core</groupId>
+	<groupId>ro.happyhyppo.mss</groupId>
 	<artifactId>mss-core</artifactId>
-	<!-- <version>0.0.1</version> -->
+	<version>1.0.0</version>
 	<packaging>jar</packaging>
     <properties>
         <jettyVersion>9.4.43.v20210629</jettyVersion>
